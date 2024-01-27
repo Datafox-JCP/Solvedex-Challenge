@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct Solvedex_ChallengeApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DogView()
         }
     }
 }

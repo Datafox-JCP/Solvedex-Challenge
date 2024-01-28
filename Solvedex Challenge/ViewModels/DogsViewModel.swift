@@ -11,6 +11,7 @@ import Foundation
 final class DogsViewModel: ObservableObject {
     
     @Published var imageUrlList: [String]?
+    @Published var numberOfImages: Int = 20
     
     init() {
         getBreedImageList()
@@ -25,7 +26,7 @@ final class DogsViewModel: ObservableObject {
     }
     
     func getBreedImageList() {
-        let urlString = "\(Constants.randomPugImagesURL)"
+        let urlString = "\(Constants.randomPugImagesURL)" + "\(numberOfImages)"
         let url = URL(string: urlString)
 
         if let url = url {

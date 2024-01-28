@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>top-level-items</key>
+	<array>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>19</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>18</string>
+					<key>Timestamp</key>
+					<string>728168386.73446</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Solvedex Challenge/Views/DogView.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>            Stepper(value: $dogsViewModel.numberOfImages, in: 5...20) {
+</string>
+				<key>leading</key>
+				<string>        NavigationStack {
+            /// Select the number of images to retrieve
+</string>
+				<key>trailing</key>
+				<string>                Text("Images to retrieve: \(dogsViewModel.numberOfImages)")
+            }
+            .onChange(of: dogsViewModel.numberOfImages) {
+</string>
+			</dict>
+			<key>title</key>
+			<string>Added functionality - Select number of images</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>29</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>28</string>
+					<key>Timestamp</key>
+					<string>728168386.734441</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Solvedex Challenge/Views/DogView.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>                ContentUnavailableView(
+                    "Not possible to show images",
+                    systemImage: "exclamationmark.icloud"
+                )
+</string>
+				<key>leading</key>
+				<string>            if dogsViewModel.imageUrlList == nil {
+                /// Used when not content
+</string>
+				<key>trailing</key>
+				<string>            } else {
+                List(dogsViewModel.imageUrlList!, id: \.self) { imageUrl in
+                   DogRow(imageUrl: imageUrl)
+</string>
+			</dict>
+			<key>title</key>
+			<string>Added functionality (no images available)</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>44</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>43</string>
+					<key>Timestamp</key>
+					<string>728168478.2401299</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Solvedex Challenge/Views/DogView.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>                /// Refresh (some people does not know pull to refresh)
+</string>
+				<key>leading</key>
+				<string>                .navigationTitle("Pug")
+                .navigationBarTitleDisplayMode(.inline)
+</string>
+				<key>trailing</key>
+				<string>                .toolbar {
+                    ToolbarItem(placement: .topBarTrailing) {
+                        Button {
+</string>
+			</dict>
+			<key>title</key>
+			<string>Added functionality - Button to refresh</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>39</string>
+					<key>EndingLineNumber</key>
+					<string>40</string>
+					<key>StartingColumnNumber</key>
+					<string>39</string>
+					<key>StartingLineNumber</key>
+					<string>40</string>
+					<key>Timestamp</key>
+					<string>728161887.827208</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Solvedex Challenge/Views/DogRow.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string></string>
+				<key>leading</key>
+				<string>            .frame(maxWidth: .infinity, maxHeight: 500)
+            
+            /// In case no image availa</string>
+				<key>trailing</key>
+				<string>ble Heart and Likes will not show
+            if !noImage {
+                Image(systemName: "heart")
+</string>
+			</dict>
+			<key>title</key>
+			<string>Added functionality (heart and likes)</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>69</string>
+					<key>EndingLineNumber</key>
+					<string>56</string>
+					<key>StartingColumnNumber</key>
+					<string>16</string>
+					<key>StartingLineNumber</key>
+					<string>56</string>
+					<key>Timestamp</key>
+					<string>728161873.1971461</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Solvedex Challenge/Views/DogRow.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>/// Added inflect to handle plurals (1 Like / 2 Likes)</string>
+				<key>leading</key>
+				<string>                    }
+                
+                </string>
+				<key>trailing</key>
+				<string>
+                Text("^[\(likes) Likes](inflect: true)")
+                    .padding(.horizontal, 16)
+</string>
+			</dict>
+			<key>title</key>
+			<string>Added functionality (handle plurals)</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+	</array>
+</dict>
+</plist>

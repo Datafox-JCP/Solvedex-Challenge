@@ -16,9 +16,7 @@ struct DogView: View {
     var body: some View {
         NavigationStack {
             if dogsViewModel.imageUrlList == nil {
-                if dogsViewModel.isLoading {
-                    LoaderView()
-                } // Is loading
+                
             } else {
                 List(dogsViewModel.imageUrlList!, id: \.self) { imageUrl in
                    DogRow(imageUrl: imageUrl)
@@ -31,20 +29,10 @@ struct DogView: View {
                 .navigationTitle("Pug")
                 .navigationBarTitleDisplayMode(.inline)
             } // Is loaded
-            
-            if dogsViewModel.isLoading {
-                LoaderView()
-            }
         } // Navigation
         .task {
-            dogsViewModel.getImageList()
-        } // Get images task
-        .alert(isPresented: $dogsViewModel.shouldShowAlert) {
-            return Alert(
-                title: Text("Error"),
-                message: Text(dogsViewModel.dogError?.errorDescription ?? "")
-            )
-        } // Alert
+            dogsViewModel.getBreedImageList()
+        } // Get images
     }
 }
 

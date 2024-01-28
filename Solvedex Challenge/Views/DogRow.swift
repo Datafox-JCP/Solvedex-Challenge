@@ -19,7 +19,7 @@ struct DogRow: View {
             AsyncImage(url: URL(string: imageUrl)) { phase in
                 switch phase {
                 case .empty:
-                    Color.purple.opacity(0.1)
+                    Color.blue.opacity(0.2)
                 case .success(let image):
                     image
                         .resizable()
@@ -40,8 +40,12 @@ struct DogRow: View {
                 .padding(.horizontal, 16)
                 .padding(.top, 16)
                 .onTapGesture {
-                    heartTapped.toggle()
-                    likes += 1
+                    if !heartTapped {
+                        heartTapped = true
+                        likes += 1
+                    } else {
+                        likes += 1
+                    }
                 }
             
             Text("\(likes) Likes")

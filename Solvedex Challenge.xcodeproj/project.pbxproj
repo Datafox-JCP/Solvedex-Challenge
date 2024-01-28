@@ -16,8 +16,7 @@
 		C669D9822B60ABC900CA3699 /* DogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C669D9812B60ABC900CA3699 /* DogView.swift */; };
 		C669D9882B614FA400CA3699 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C669D9872B614FA400CA3699 /* Constants.swift */; };
 		C669D98A2B61519400CA3699 /* DogsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C669D9892B61519400CA3699 /* DogsViewModel.swift */; };
-		C669D98E2B62054200CA3699 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C669D98D2B62054200CA3699 /* LoaderView.swift */; };
-		C6AE06C52B64426C00322CB4 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE06C42B64426C00322CB4 /* WebService.swift */; };
+		C66C3C802B669BE100CA2A46 /* iOS Engineer Challenge.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C66C3C7F2B669BE100CA2A46 /* iOS Engineer Challenge.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +30,7 @@
 		C669D9812B60ABC900CA3699 /* DogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogView.swift; sourceTree = "<group>"; };
 		C669D9872B614FA400CA3699 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C669D9892B61519400CA3699 /* DogsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsViewModel.swift; sourceTree = "<group>"; };
-		C669D98D2B62054200CA3699 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
-		C6AE06C42B64426C00322CB4 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		C66C3C7F2B669BE100CA2A46 /* iOS Engineer Challenge.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "iOS Engineer Challenge.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,16 +63,12 @@
 		C669D9632B6049DD00CA3699 /* Solvedex Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				C669D9722B604A0B00CA3699 /* Docs */,
 				C669D9642B6049DD00CA3699 /* Solvedex_ChallengeApp.swift */,
-				C669D9812B60ABC900CA3699 /* DogView.swift */,
-				C6293E892B65421A00BD92F9 /* DogRow.swift */,
-				C669D98D2B62054200CA3699 /* LoaderView.swift */,
-				C669D97B2B60A03600CA3699 /* DogModel.swift */,
-				C669D97D2B60A3E200CA3699 /* ErrorCases.swift */,
-				C669D9892B61519400CA3699 /* DogsViewModel.swift */,
-				C6AE06C42B64426C00322CB4 /* WebService.swift */,
-				C669D9872B614FA400CA3699 /* Constants.swift */,
+				C66C3C7B2B669AB800CA2A46 /* Views */,
+				C66C3C7C2B669AC800CA2A46 /* Models */,
+				C66C3C7D2B669AD000CA2A46 /* ViewModels */,
+				C66C3C7E2B669AE600CA2A46 /* Utils */,
+				C669D9722B604A0B00CA3699 /* Docs */,
 				C669D9682B6049E400CA3699 /* Assets.xcassets */,
 				C669D96A2B6049E400CA3699 /* Preview Content */,
 			);
@@ -92,8 +86,43 @@
 		C669D9722B604A0B00CA3699 /* Docs */ = {
 			isa = PBXGroup;
 			children = (
+				C66C3C7F2B669BE100CA2A46 /* iOS Engineer Challenge.pdf */,
 			);
 			path = Docs;
+			sourceTree = "<group>";
+		};
+		C66C3C7B2B669AB800CA2A46 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C669D9812B60ABC900CA3699 /* DogView.swift */,
+				C6293E892B65421A00BD92F9 /* DogRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C66C3C7C2B669AC800CA2A46 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C669D97B2B60A03600CA3699 /* DogModel.swift */,
+				C669D97D2B60A3E200CA3699 /* ErrorCases.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C66C3C7D2B669AD000CA2A46 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C669D9892B61519400CA3699 /* DogsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C66C3C7E2B669AE600CA2A46 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C669D9872B614FA400CA3699 /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C669D96C2B6049E400CA3699 /* Preview Assets.xcassets in Resources */,
+				C66C3C802B669BE100CA2A46 /* iOS Engineer Challenge.pdf in Resources */,
 				C669D9692B6049E400CA3699 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,13 +196,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6AE06C52B64426C00322CB4 /* WebService.swift in Sources */,
 				C6293E8A2B65421A00BD92F9 /* DogRow.swift in Sources */,
 				C669D9822B60ABC900CA3699 /* DogView.swift in Sources */,
 				C669D97C2B60A03600CA3699 /* DogModel.swift in Sources */,
 				C669D97E2B60A3E200CA3699 /* ErrorCases.swift in Sources */,
 				C669D9652B6049DD00CA3699 /* Solvedex_ChallengeApp.swift in Sources */,
-				C669D98E2B62054200CA3699 /* LoaderView.swift in Sources */,
 				C669D98A2B61519400CA3699 /* DogsViewModel.swift in Sources */,
 				C669D9882B614FA400CA3699 /* Constants.swift in Sources */,
 			);

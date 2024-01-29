@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct DogView: View {
-    
+
     // MARK: Properties
     @ObservedObject var dogsViewModel = DogsViewModel()
-    
+
         // MARK: View
     var body: some View {
         NavigationStack {
@@ -23,7 +23,7 @@ struct DogView: View {
                 dogsViewModel.refresh()
             }
             .padding(.horizontal)
-            
+
             if dogsViewModel.imageUrlList == nil {
                 /// Used when not content
                 ContentUnavailableView(
@@ -48,9 +48,9 @@ struct DogView: View {
                             dogsViewModel.refresh()
                         } label: {
                             Image(systemName: "arrow.clockwise")
-                        }
-                    }
-                }
+                        } // Refresh buttom
+                    } // Bar tailing
+                } // Toolbar
             } // Is data?
         } // Navigation
         .task {

@@ -59,13 +59,13 @@
 					<key>EndingColumnNumber</key>
 					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>29</string>
+					<string>32</string>
 					<key>StartingColumnNumber</key>
 					<string>0</string>
 					<key>StartingLineNumber</key>
 					<string>28</string>
 					<key>Timestamp</key>
-					<string>728168386.734441</string>
+					<string>728177440.5757</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -154,15 +154,15 @@
 				<key>location-parameters</key>
 				<dict>
 					<key>EndingColumnNumber</key>
-					<string>39</string>
+					<string>43</string>
 					<key>EndingLineNumber</key>
-					<string>40</string>
+					<string>24</string>
 					<key>StartingColumnNumber</key>
-					<string>39</string>
+					<string>34</string>
 					<key>StartingLineNumber</key>
-					<string>40</string>
+					<string>23</string>
 					<key>Timestamp</key>
-					<string>728161887.827208</string>
+					<string>728229974.623819</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -178,15 +178,63 @@
 			<key>text-context</key>
 			<dict>
 				<key>focused</key>
-				<string></string>
+				<string>
+                        .tint(.accentColor)</string>
+				<key>leading</key>
+				<string>                case .empty:
+                    /// Use progress view
+                    ProgressView()</string>
+				<key>trailing</key>
+				<string>
+                case .success(let image):
+                    image
+</string>
+			</dict>
+			<key>title</key>
+			<string>Enhacement: Use ProgressView here</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>45</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>44</string>
+					<key>Timestamp</key>
+					<string>728229940.270365</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Solvedex Challenge/Views/DogRow.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>            /// In case no image available Heart and Likes will not show
+</string>
 				<key>leading</key>
 				<string>            .frame(maxWidth: .infinity, maxHeight: 500)
-            
-            /// In case no image availa</string>
+
+</string>
 				<key>trailing</key>
-				<string>ble Heart and Likes will not show
-            if !noImage {
+				<string>            if !noImage {
                 Image(systemName: "heart")
+                    .imageScale(.large)
 </string>
 			</dict>
 			<key>title</key>
@@ -200,15 +248,15 @@
 				<key>location-parameters</key>
 				<dict>
 					<key>EndingColumnNumber</key>
-					<string>69</string>
+					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>56</string>
+					<string>61</string>
 					<key>StartingColumnNumber</key>
-					<string>16</string>
+					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>56</string>
+					<string>60</string>
 					<key>Timestamp</key>
-					<string>728161873.1971461</string>
+					<string>728229940.270311</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -224,15 +272,16 @@
 			<key>text-context</key>
 			<dict>
 				<key>focused</key>
-				<string>/// Added inflect to handle plurals (1 Like / 2 Likes)</string>
+				<string>                /// Added inflect to handle plurals (1 Like / 2 Likes)
+</string>
 				<key>leading</key>
 				<string>                    }
-                
-                </string>
+
+</string>
 				<key>trailing</key>
-				<string>
-                Text("^[\(likes) Likes](inflect: true)")
+				<string>                Text("^[\(likes) Likes](inflect: true)")
                     .padding(.horizontal, 16)
+                    .padding(.top, 16)
 </string>
 			</dict>
 			<key>title</key>

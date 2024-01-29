@@ -10,4 +10,3 @@ import Foundation
 struct DogImage: Decodable {
     var message: [String]?
 }
-

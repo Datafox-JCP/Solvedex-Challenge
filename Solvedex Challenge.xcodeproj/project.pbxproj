@@ -8,7 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		C6293E8A2B65421A00BD92F9 /* DogRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6293E892B65421A00BD92F9 /* DogRow.swift */; };
-		C669D9652B6049DD00CA3699 /* Solvedex_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C669D9642B6049DD00CA3699 /* Solvedex_ChallengeApp.swift */; };
+		C63F35F02B67E69700D69AD4 /* SwiftLint_Results.png in Resources */ = {isa = PBXBuildFile; fileRef = C63F35EF2B67E69600D69AD4 /* SwiftLint_Results.png */; };
+		C63F35F42B67EA9200D69AD4 /* Screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = C63F35F12B67EA8800D69AD4 /* Screenshot2.png */; };
+		C63F35F52B67EA9200D69AD4 /* Screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = C63F35F22B67EA8900D69AD4 /* Screenshot1.png */; };
+		C63F35F62B67EA9200D69AD4 /* Demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C63F35F32B67EA9200D69AD4 /* Demo.mp4 */; };
+		C669D9652B6049DD00CA3699 /* SolvedexChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C669D9642B6049DD00CA3699 /* SolvedexChallengeApp.swift */; };
 		C669D9692B6049E400CA3699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C669D9682B6049E400CA3699 /* Assets.xcassets */; };
 		C669D96C2B6049E400CA3699 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C669D96B2B6049E400CA3699 /* Preview Assets.xcassets */; };
 		C669D97C2B60A03600CA3699 /* DogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C669D97B2B60A03600CA3699 /* DogModel.swift */; };
@@ -21,8 +25,12 @@
 
 /* Begin PBXFileReference section */
 		C6293E892B65421A00BD92F9 /* DogRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogRow.swift; sourceTree = "<group>"; };
+		C63F35EF2B67E69600D69AD4 /* SwiftLint_Results.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwiftLint_Results.png; sourceTree = "<group>"; };
+		C63F35F12B67EA8800D69AD4 /* Screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot2.png; sourceTree = "<group>"; };
+		C63F35F22B67EA8900D69AD4 /* Screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot1.png; sourceTree = "<group>"; };
+		C63F35F32B67EA9200D69AD4 /* Demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Demo.mp4; sourceTree = "<group>"; };
 		C669D9612B6049DD00CA3699 /* Solvedex Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solvedex Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C669D9642B6049DD00CA3699 /* Solvedex_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solvedex_ChallengeApp.swift; sourceTree = "<group>"; };
+		C669D9642B6049DD00CA3699 /* SolvedexChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolvedexChallengeApp.swift; sourceTree = "<group>"; };
 		C669D9682B6049E400CA3699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C669D96B2B6049E400CA3699 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C669D97B2B60A03600CA3699 /* DogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogModel.swift; sourceTree = "<group>"; };
@@ -44,6 +52,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C63F35EE2B67E5DB00D69AD4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C63F35EF2B67E69600D69AD4 /* SwiftLint_Results.png */,
+				C63F35F32B67EA9200D69AD4 /* Demo.mp4 */,
+				C63F35F22B67EA8900D69AD4 /* Screenshot1.png */,
+				C63F35F12B67EA8800D69AD4 /* Screenshot2.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		C669D9582B6049DD00CA3699 = {
 			isa = PBXGroup;
 			children = (
@@ -63,12 +82,13 @@
 		C669D9632B6049DD00CA3699 /* Solvedex Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				C669D9642B6049DD00CA3699 /* Solvedex_ChallengeApp.swift */,
+				C669D9642B6049DD00CA3699 /* SolvedexChallengeApp.swift */,
 				C66C3C7B2B669AB800CA2A46 /* Views */,
 				C66C3C7C2B669AC800CA2A46 /* Models */,
 				C66C3C7D2B669AD000CA2A46 /* ViewModels */,
 				C66C3C7E2B669AE600CA2A46 /* Utils */,
 				C669D9722B604A0B00CA3699 /* Docs */,
+				C63F35EE2B67E5DB00D69AD4 /* Images */,
 				C669D9682B6049E400CA3699 /* Assets.xcassets */,
 				C669D96A2B6049E400CA3699 /* Preview Content */,
 			);
@@ -183,7 +203,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C63F35F42B67EA9200D69AD4 /* Screenshot2.png in Resources */,
+				C63F35F62B67EA9200D69AD4 /* Demo.mp4 in Resources */,
 				C669D96C2B6049E400CA3699 /* Preview Assets.xcassets in Resources */,
+				C63F35F02B67E69700D69AD4 /* SwiftLint_Results.png in Resources */,
+				C63F35F52B67EA9200D69AD4 /* Screenshot1.png in Resources */,
 				C66C3C802B669BE100CA2A46 /* iOS Engineer Challenge.pdf in Resources */,
 				C669D9692B6049E400CA3699 /* Assets.xcassets in Resources */,
 			);
@@ -200,7 +224,7 @@
 				C669D9822B60ABC900CA3699 /* DogView.swift in Sources */,
 				C669D97C2B60A03600CA3699 /* DogModel.swift in Sources */,
 				C669D97E2B60A3E200CA3699 /* ErrorCases.swift in Sources */,
-				C669D9652B6049DD00CA3699 /* Solvedex_ChallengeApp.swift in Sources */,
+				C669D9652B6049DD00CA3699 /* SolvedexChallengeApp.swift in Sources */,
 				C669D98A2B61519400CA3699 /* DogsViewModel.swift in Sources */,
 				C669D9882B614FA400CA3699 /* Constants.swift in Sources */,
 			);
